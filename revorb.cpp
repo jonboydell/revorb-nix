@@ -26,10 +26,11 @@
 #ifdef __APPLE__
     #include <sys/uio.h>
 #else
-    #include <io.h>
+    #include <stdio.h>
 #endif
 #include <fcntl.h>
 #include <string>
+#include <cstring>
 #include <cwchar>
 #include <cstdlib>
 #include <ogg/ogg.h>
