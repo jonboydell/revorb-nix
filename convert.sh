@@ -1,3 +1,5 @@
+#!/bin/bash
+
 WW2OGG_HOME=${HOME}/Projects/ww2ogg022
 PATH=${WW2OGG_HOME}:${HOME}/Projects/revorb:${PATH}
 
